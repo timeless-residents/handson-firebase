@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      { "source": "/favicon.ico", "destination": "/index.html" }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
